@@ -16,3 +16,6 @@ if (nzchar(system.file(package = "box.lsp"))) {
     )
   )
 }
+
+# Use pak for dependency checks and package installtion
+options(renv.config.pak.enabled = TRUE)
